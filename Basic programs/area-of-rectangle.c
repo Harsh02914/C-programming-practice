@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-    int main() {
-    int principal, rate, time, simple_interest;
+int main()
+{
+    int length, breadth, area;
 
-    printf ("Enter Principal ");
-    scanf ("%d", &principal);
+    printf("Enter length\n");
+    scanf("%d", &length);
+    
+    printf ("Enter breadth\n");
+    scanf ("%d", &breadth);
 
-    printf ("Enter rate ");
-    scanf ("%d", &rate);
+    area = length * breadth;
 
-    printf ("Enter time ");
-    scanf ("%d", &time);
-
-    simple_interest = (principal * rate * time ) / 100;
-    printf ("Area of rectange is = %d", simple_interest);
-
-return 0;
+    printf ("Area of rectangle is = %d", area);
+    return 0;
 }
