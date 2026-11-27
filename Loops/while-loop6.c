@@ -11,8 +11,7 @@ int main()
     while (n > 0)
     {
         digit = n % 10;
-        if (digit % 2 == 0)
-        {
+        if (digit % 2 == 0){
             count++;
         }
         n = n / 10;
