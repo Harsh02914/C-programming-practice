@@ -1,12 +1,15 @@
 #include <stdio.h>
 
-    int main() {
+int main()
+{
     int i;
-    for (i = 1; i <= 10; i++){
-        if (i == 5){
+    for (i = 1; i <= 10; i++)
+    {
+        if (i == 5)
+        {
             continue;
         }
-        printf ("%d\n", i);
+        printf("%d\n", i);
     }
-return 0;
+    return 0;
 }
